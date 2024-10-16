@@ -1,5 +1,5 @@
 import React from 'react'
-
+import TrialUseReducer from './Hooks/TrialUseReducer'
 
 
 
@@ -10,7 +10,8 @@ function App() {
    
       <div>
       
-       
+   <TrialUseReducer/>
+      
       </div>
 
    
