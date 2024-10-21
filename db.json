@@ -1,0 +1,14 @@
+{
+    "user":[
+        {"id" :1,"name":"unni","age":20},
+        {"id" :2,"name":"sinu","age":21},
+        {"id" :3,"name":"ponnu","age":19},
+        {"id" :4,"name":"mufi","age":21},
+        {"id" :5,"name":"kunjava","age":21},
+        {"id" :6,"name":"sonu","age":21},
+        {"id" :7,"name":"ammu","age":19},
+        {"id" :8,"name":"maya","age":17},
+        {"id" :9,"name":"anju","age":26},
+        {"id" :10,"name":"manju","age":23}
+    ]
+}
