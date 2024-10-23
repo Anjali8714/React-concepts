@@ -1,29 +1,39 @@
 import React from "react";
-import {Routes,Route } from "react-router-dom";
-import Home from "./React-Router-Dom/Home";
-import About from "./React-Router-Dom/About";
-import Navbar from "./React-Router-Dom/Navbar";
-import OrderSummary from "./React-Router-Dom/OrderSummary";
-import Registrationpage from "../Reactapp/Registrationpage";
-import Loginpage from "../Reactapp/Loginpage";
-import Homepage from "../Reactapp/Homepage";
+import Component1 from "./UseContext/Component1";
+
+// import { Routes,Route } from "react-router-dom";
+
+
 
 function App() {
   return (
+    <>
     <div>
      
-     <>
-     {/* <Navbar/> */}
-     <Routes>
-      <Route path="/" Component={Registrationpage}/>
-      <Route path="login" Component={Loginpage}/>
-      <Route path="home" Component={Homepage} />
-      </Routes> 
-      </>
-      
      
+     
+     {/* <Routes> */}
+        {/* <Route path="/" Component={Dashboard} >
+            <Route path="profile" Component={Profile} />
+            <Route path="settings" Component={Settings} />
+        </Route> */}
+        {/* <Route path="/" Component={Home} />
+        <Route path="about" Component={About} />
+        <Route path="contact" Component={Contact} />
+        <Route path='profile' Component={Profile} /> */}
+        {/* <Route path="/" Component={Registrationpage}/>
+        <Route path="login" Component={Loginpage}/>
+        <Route path="home" Component={Homepage}/>
+      </Routes>  */}
+
+      {/* <FirstProblem/>
+      <Usercontext/>
+      <Profile/> */}
+      
+   <Component1/>
      
     </div>
+    </>
   );
 }
 
