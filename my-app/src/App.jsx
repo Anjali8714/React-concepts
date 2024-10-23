@@ -1,40 +1,27 @@
 import React from "react";
-import Component1 from "./UseContext/Component1";
-
-// import { Routes,Route } from "react-router-dom";
-
-
+import SecondProblem from "../../usecontextProblems/secondProblem";
+import {Routes,Route, BrowserRouter} from 'react-router-dom';
+// import CreateBlog from "./Blog/CreateBlog";
+// import Blogs from "./Blog/Blogs";
 
 function App() {
   return (
     <>
     <div>
+      <BrowserRouter>
+     <Routes>
+      <Route path="/" Component={SecondProblem}/>
+      {/* <Route path='blog' Component={Blogs}/> */}
+     </Routes>
+     </BrowserRouter>
      
      
      
-     {/* <Routes> */}
-        {/* <Route path="/" Component={Dashboard} >
-            <Route path="profile" Component={Profile} />
-            <Route path="settings" Component={Settings} />
-        </Route> */}
-        {/* <Route path="/" Component={Home} />
-        <Route path="about" Component={About} />
-        <Route path="contact" Component={Contact} />
-        <Route path='profile' Component={Profile} /> */}
-        {/* <Route path="/" Component={Registrationpage}/>
-        <Route path="login" Component={Loginpage}/>
-        <Route path="home" Component={Homepage}/>
-      </Routes>  */}
-
-      {/* <FirstProblem/>
-      <Usercontext/>
-      <Profile/> */}
-      
-   <Component1/>
      
     </div>
     </>
   );
 }
+
 
 export default App;
